@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+/* Styling for the Main Container */
+.testimonial-section {
+    /* Background-color: #f5f5f5 (from the prompt) */
+    background-color: #f5f5f5;
+    /* Padding to create space around the content */
+    padding: 20px; 
+    /* Max width to mimic the contained look in the image */
+    max-width: 600px;
+    margin: 0 auto; /* Center the container (optional, but good practice) */
+    font-family: Arial, sans-serif; /* A common font for clarity */
+}
+
+/* Styling for the Individual Testimonial box */
+.testimonial-box {
+    /* Border: a light border for separation */
+    border: 1px solid #ddd;
+    /* Padding: inside the box */
+    padding: 15px;
+    /* Background-color: white for the individual box */
+    background-color: white;
+    /* Margin: space between testimonial boxes */
+    margin-bottom: 10px;
+}
+
+/* Styling for the Testimonial Text (Normal styling) */
+.testimonial-text {
+    /* Reset margins for clean spacing */
+    margin-top: 0;
+    margin-bottom: 10px; 
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+/* Styling for the Author's name */
+.testimonial-author {
+    /* Text-align right */
+    text-align: right;
+    /* Font-style italic */
+    font-style: italic;
+    /* Smaller font and grey color for subtle look */
+    font-size: 13px; 
+    color: #555;
+    /* Reset bottom margin */
+    margin-bottom: 0;
+}
+
+/* Styling for the main header (optional but good practice) */
+.testimonial-section h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
